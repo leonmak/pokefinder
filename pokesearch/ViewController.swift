@@ -5,6 +5,13 @@
 //  Created by Leon on 11/12/16.
 //  Copyright © 2016 Leon. All rights reserved.
 //
+//  Note: 
+//      Add files:
+//        - GoogleService-Info.plist from firebase
+//        - bridging header to geofire
+//      Enable keychain sharing under project > target > capabilities
+//      Edit product scheme add run > environment variable > OS_ACTIVITY_MODE = disable
+//      Add location security message in info.plist
 
 import UIKit
 import MapKit
